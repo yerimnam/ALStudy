@@ -2,7 +2,7 @@ package Study01;
 
 public class Factorial {
 	
-	  // 반복적으로 구현한 n!
+	  // 반복적으로 구현한 n! --방법 1
     public static int factorialIterative(int n) {
         int result = 1;
         // 1부터 n까지의 수를 차례대로 곱하기
@@ -12,7 +12,7 @@ public class Factorial {
         return result;
     }
 
-    // 재귀적으로 구현한 n!
+    // 재귀적으로 구현한 n! -방법 2 ->수학적으로 구현해서 간결하고 읽기 좋다.
     public static int factorialRecursive(int n) {
         // n이 1 이하인 경우 1을 반환
         if (n <= 1) return 1;
