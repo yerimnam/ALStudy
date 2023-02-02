@@ -1,4 +1,4 @@
-package Study01;
+package study01;
 
 import java.util.Scanner;
 
@@ -61,7 +61,7 @@ public class Gcd {//유클리드호제법 (최대공약수 구하기)
 		
 		int m = a * b* n;
 		
-		System.out.println("최대공약수 : "+ m);
+		System.out.println("최대공배수 : "+ m);
 		
 		
 	}

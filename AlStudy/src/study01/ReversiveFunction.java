@@ -1,4 +1,4 @@
-package Study01;
+package study01;
 
 public class ReversiveFunction {
 	   public static void recursiveFunction(int i) {

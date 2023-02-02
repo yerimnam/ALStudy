@@ -1,4 +1,4 @@
-package Study01;
+package study01;
 
 import java.util.LinkedList;
 import java.util.Queue;
